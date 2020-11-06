@@ -14,6 +14,9 @@
 .masthead__actions {
   grid-column-start: 3;
   grid-row-start: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .masthead__technologies {
