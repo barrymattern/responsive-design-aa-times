@@ -1,11 +1,14 @@
 .masthead {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .masthead__menu-and-search {
   grid-column-start: 1;
   grid-row-start: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .masthead__actions {
@@ -36,4 +39,8 @@
 .masthead__button {
   font-size: 11px;
   padding: 7px 9px;
+}
+
+.masthead__button:hover {
+  background-color: #f7f7f5;
 }
