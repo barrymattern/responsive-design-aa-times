@@ -32,3 +32,8 @@
   grid-column-start: 3;
   grid-row-start: 2;
 }
+
+.masthead__button {
+  font-size: 11px;
+  padding: 7px 9px;
+}
